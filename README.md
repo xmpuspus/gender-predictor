@@ -3,7 +3,7 @@ Author: Xavier M. Puspus
 
 ### Description
 
-[Click this link to explore the web application hosted in Heroku.](https://gender-predictor.herokuapp.com/)  
+[Click this link to explore the web application hosted in Heroku.](https://baby-gender-predictor.herokuapp.com/)  
 
 
 I used a chinese gender predictor reference table to build this web application that predicts gender based on your mother's age and the expected birth month.

@@ -42,11 +42,7 @@ st.write("This web application will try to predict a child's gender based on the
 
 # Months and Age
 month_entry = st.sidebar.selectbox('Expected Birth Month', months)
-age_trial = st.sidebar.selectbox("Mother's Age", np.arange(28, 100, 1))
-
-# age_diff = age_trial - your_age_trial
-
-# month_trial = months[np.where(months == month_entry)[0][0] - 9]
+age_trial = st.sidebar.selectbox("Mother's Age", age)
 
 prediction = melted_data[(melted_data['Month'] == month_entry) & (melted_data['Age'] == int(age_trial))]['Gender'].values[0]
 
